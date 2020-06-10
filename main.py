@@ -141,7 +141,6 @@ def test():
     try:
         model.load_state_dict(torch.load(args.dataset + '-' + str(args.layers) + '.pkl'),
                               strict=True)
-        print(111)
     except FileNotFoundError:
         model.load_state_dict(torch.load(args.dataset + '-' + str(2) + '.pkl'),
                               strict=False)
