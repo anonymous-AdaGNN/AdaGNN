@@ -10,7 +10,7 @@ Use as
 ```
 python main.py
 ```
-Pre-trained models can be found in pre_trained_examples.
+Pre-trained models on BlogCatalog can be found in pre_trained_examples.
 
 Configure as you like:
 ```
